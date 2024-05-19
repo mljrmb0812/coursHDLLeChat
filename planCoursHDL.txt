@@ -1,0 +1,101 @@
+D'accord, voici le même plan de cours avec la subdivision révisée :
+
+**Titre : Introduction au Langage de Description Matériel (HDL)**
+
+**Partie I : Fondements du HDL**
+  - **Chapitre 1 : Introduction au HDL**
+    - **Section 1 : Concepts de base**
+      - **Paragraphe 1 : Définition du HDL**
+        - Alinea a : Origine et évolution du langage HDL
+        - Alinea b : Objectifs et utilisation dans la conception de circuits électroniques
+      - **Paragraphe 2 : Utilisation et avantages du HDL**
+        - Alinea a : Description de comportement vs description structurelle
+        - Alinea b : Simulation, vérification et génération automatique de circuits
+    - **Section 2 : Types de HDL**
+      - **Paragraphe 1 : HDL synthétisable**
+        - Alinea a : Spécificités de la conception synthétisable
+        - Alinea b : Conversion en circuit physique via la synthèse logique
+      - **Paragraphe 2 : HDL de simulation**
+        - Alinea a : Utilisation pour la simulation comportementale
+        - Alinea b : Différences avec le HDL synthétisable et ses applications
+
+**Partie II : Conception en HDL**
+  - **Chapitre 2 : Conception Séquentielle**
+    - **Section 1 : Logique séquentielle**
+      - **Paragraphe 1 : Bascules et registres**
+        - Alinea a : Principes de fonctionnement des bascules
+        - Alinea b : Utilisation des registres pour le stockage de données
+      - **Paragraphe 2 : Compteurs et décompteurs**
+        - Alinea a : Conception de compteurs synchrones et asynchrones
+        - Alinea b : Utilisation des décompteurs pour des applications spécifiques
+    - **Section 2 : Machines à états**
+      - **Paragraphe 1 : Modèles d2e machines à états**
+        - Alinea a : Machines de Mealy vs machines de Moore
+        - Alinea b : Transition entre les états et détection de séquences
+      - **Paragraphe 2 : Implémentation en HDL**
+        - Alinea a : Description des états et transitions en code HDL
+        - Alinea b : Exemples d'application dans la conception de contrôleurs
+
+**Partie III : Simulation et Vérification**
+  - **Chapitre 3 : Outils de Simulation**
+    - **Section 1 : Simulateurs HDL**
+      - **Paragraphe 1 : Principaux outils disponibles**
+        - Alinea a : Simulateurs commerciaux (ModelSim, VCS)
+        - Alinea b : Simulateurs open-source (Icarus Verilog, GHDL)
+      - **Paragraphe 2 : Méthodes de simulation**
+        - Alinea a : Simulation par événements discrets
+        - Alinea b : Simulation fonctionnelle et temporelle
+    - **Section 2 : Débogage et Vérification**
+      - **Paragraphe 1 : Techniques de débogage**
+        - Alinea a : Utilisation de vagues pour la visualisation des signaux
+        - Alinea b : Détection et résolution des erreurs de simulation
+      - **Paragraphe 2 : Vérification formelle et simulation**
+        - Alinea a : Méthodes de vérification formelle (model checking)
+        - Alinea b : Comparaison entre la vérification formelle et la simulation traditionnelle
+  - **Chapitre 4 : Testbenches et Test**
+    - **Section 1 : Création de Testbenches**
+      - **Paragraphe 1 : Écriture de bancs de tests**
+        - Alinea a : Génération de stimuli pour la simulation
+        - Alinea b : Contrôle de l'environnement de test
+      - **Paragraphe 2 : Simulation de testbenches**
+        - Alinea a : Intégration des testbenches avec le code HDL à tester
+        - Alinea b : Analyse des résultats de simulation pour la validation du design
+    - **Section 2 : Méthodes de Test**
+      - **Paragraphe 1 : Techniques de test**
+        - Alinea a : Test fonctionnel vs test structurel
+        - Alinea b : Méthodes de génération de vecteurs de test automatiques et manuelles
+      - **Paragraphe 2 : Analyse des résultats de test**
+        - Alinea a : Évaluation de la couverture de test
+        - Alinea b : Interprétation des résultats et correction des défauts de conception
+2
+**Partie IV : Synthèse et Implémentation**
+  - **Chapitre 5 : Synthèse Logique**
+    - **Section 1 : Processus de Synthèse**
+      - **Paragraphe 1 : Étapes de la synthèse logique**
+        - Alinea a : Analyse syntaxique et sémantique du code HDL
+        - Alinea b : Optimisation logique pour la minimisation des ressources
+      - **Paragraphe 2 : Outils de synthèse disponibles**
+        - Alinea a : Synthèse logique RTL (Register Transfer Level)
+        - Alinea b : Synthèse au niveau des portes (gate-level synthesis)
+    - **Section 2 : Contraintes de Conception**
+      - **Paragraphe 1 : Timing et contraintes de fréquence**
+        - Alinea a : Spécification des contraintes de temps pour respecter la fréquence cible
+        - Alinea b : Analyse de la marge de synchronisation
+      - **Paragraphe 2 : Contraintes de ressources matérielles**
+        - Alinea a : Spécification des ressources disponibles (aires, puissance)
+        - Alinea b : Optimisation de la conception pour répondre aux contraintes matérielles
+  - **Chapitre 6 : Flux de Conception**
+    - **Section 1 : Méthodologies de Conception**
+      - **Paragraphe 1 : Approches top-down et bottom-up**
+        - Alinea a : Décomposition hiérarchique du design
+        - Alinea b : Intégration des modules et des sous-systèmes
+      - **Paragraphe 2 : Intégration et vérification de la conception**
+        - Alinea a : Simulation post-synthèse pour la validation fonctionnelle
+        - Alinea b : S
+Section 2 : Implémentation matérielle
+Paragraphe 1 : Génération de netlist
+Alinea a : Conversion du code HDL synthétisé en une représentation de niveau matériel
+Alinea b : Validation de la netlist avant la phase de fabrication
+Paragraphe 2 : Vérification post-synthèse et validation
+Alinea a : Simulation post-synthèse pour vérifier le comportement fonctionnel
+Alinea b : Analyse des résultats de simulation pour garantir la conformité avec les spécifications
